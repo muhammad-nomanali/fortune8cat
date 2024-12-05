@@ -1,0 +1,393 @@
+.navbar {
+    background-color: #323232;
+    padding: 30px 0 !important;
+  }
+  .navbar .navbar-span {
+  
+    font-weight: 800;
+   
+    padding-left: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+  .navbar-brand .navbar-logo {
+    width: 100px;
+    height: 60px;
+  }
+  .navbar-brand {
+    display: flex;
+   
+  }
+  .navbar-brand .navbar-logo {
+    width: 12%;
+  }
+  .navbar-brand .navbar-logo img {
+    width: 100%;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #f98116;
+    margin: 0 10px;
+    border-bottom: 2px solid #323232;
+  }
+  
+  .navbar-nav .nav-item .nav-link:focus {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar-toggler{
+      font-size: 10px !important;
+    padding: 10px !important;
+    background-color: white !important;
+    }
+    .navbar-brand {
+      padding-bottom: 30px !important;
+    }
+    .navbar-brand .navbar-logo {
+      width: 18%;
+    }
+    }
+  @media screen and (max-width: 500px) {
+    .navbar-brand {
+      padding-bottom: 40px !important;
+    }
+    .navbar-brand .navbar-logo {
+      width: 25%;
+    }
+    .navbar .navbar-span {
+  font-size: 26px !important;
+    margin-top: 30px;
+    }
+    }
+   
+    /* hero section */
+    /* From Uiverse.io by kandalgaonkarshubham */ 
+.hero-section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background: radial-gradient(
+          circle farthest-side at 0% 50%,
+          #282828 23.5%,
+          rgba(255, 170, 0, 0) 0
+        )
+        21px 30px,
+      radial-gradient(
+          circle farthest-side at 0% 50%,
+          #2c3539 24%,
+          rgba(240, 166, 17, 0) 0
+        )
+        19px 30px,
+      linear-gradient(
+          #282828 14%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 85%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          150deg,
+          #282828 24%,
+          #2c3539 0,
+          #2c3539 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #2c3539 0,
+          #2c3539 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          30deg,
+          #282828 24%,
+          #2c3539 0,
+          #2c3539 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #2c3539 0,
+          #2c3539 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
+        #282828;
+    background-size: 40px 60px;
+  }
+  .hero-section h2{
+    font-size: 70px;
+    color: white;
+    text-transform: capitalize;
+  }
+  .hero-section h2 span{
+    color: #f98116;
+  }
+  .hero-section  button {
+    padding: 10px 60px;
+    background-color: #f98116;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-radius: 30px;
+  }
+  .hero-section  button:hover {
+    background-color: white;
+    color: #282828;
+  }
+  .hero-section .hero-content i {
+    font-size: 30px;
+    padding-left: 30px;
+  }
+  .hero-section  i:hover {
+    color: #f98116;
+    cursor: pointer;
+  }
+  .hero-section .hero-icon {
+    animation: upDown 2s infinite;
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
+  }
+  @media screen and (max-width: 800px) {
+    .hero-section{
+      text-align: center;
+    }
+    .bts-icons{
+      justify-content: center;
+    }
+      }
+      @media screen and (max-width: 520px) {
+          .hero-section h2{
+           font-size: 50px;
+          }
+            .hero-section img{
+                width: 80%;
+                margin: 0 auto;
+            }
+            }
+  /* about-section */
+  /* From Uiverse.io by kandalgaonkarshubham */ 
+.about-section {
+    width: 100%;
+    height: auto;
+    background: radial-gradient(
+          circle farthest-side at 0% 50%,
+          #282828 23.5%,
+          rgba(255, 170, 0, 0) 0
+        )
+        21px 30px,
+      radial-gradient(
+          circle farthest-side at 0% 50%,
+          #a1000e 24%,
+          rgba(240, 166, 17, 0) 0
+        )
+        19px 30px,
+      linear-gradient(
+          #282828 14%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 85%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          150deg,
+          #282828 24%,
+          #a1000e 0,
+          #a1000e 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #a1000e 0,
+          #a1000e 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          30deg,
+          #282828 24%,
+          #a1000e 0,
+          #a1000e 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #a1000e 0,
+          #a1000e 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(90deg, #a1000e 2%, #282828 0, #282828 98%, #a1000e 0%) 0 0
+        #282828;
+    background-size: 40px 60px;
+  }
+  .about-section h2{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px;
+  }
+  .about-section p{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+  @media screen and (max-width: 720px) {
+    .about-section h2{
+     font-size: 55px;
+    }
+      .about-section p{
+      font-size: 20px;
+      padding-top: 10px;
+       
+      }
+      }
+  /* tokenomics */
+  .tokenomics {
+    width: 100%;
+    height: auto;
+    /* Add your background pattern here */
+    background: rgba(29, 31, 32, 0.904)
+      radial-gradient(rgba(255, 255, 255, 0.712) 10%, transparent 1%);
+  
+    background-size: 11px 11px;
+    padding-bottom: 80px;
+  }
+  .tokenomics h2{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px;
+  }
+  /* From Uiverse.io by kamehame-ha */ 
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cards .red {
+    background-color: #f43f5e;
+  }
+  
+  .cards .blue {
+    background-color: #3b82f6;
+  }
+  
+  .cards .green {
+    background-color: #22c55e;
+  }
+  
+  .cards .carde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .carde p.tip {
+    font-size:30px;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  
+  .cards .carde p.second-text {
+    font-size: 20px;
+    text-wrap: nowrap;
+    overflow: hidden;
+  }
+  
+  .cards .carde:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .carde:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+  @media screen and (max-width: 720px) {
+    .tokenomics h2{
+     font-size: 55px;
+    }
+      .tokenomics img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+       
+      }
+      }
+  /* footer-section */
+  /* From Uiverse.io by kandalgaonkarshubham */ 
+.footer-section {
+    width: 100%;
+    height: 100%;
+    --s: 37px; /* control the size */
+  
+    --c: #0000, #282828 0.5deg 119.5deg, #0000 120deg;
+    --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
+    --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
+    --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
+    background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),
+      var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,
+      var(--g3) 0 calc(1.73 * var(--s)) #1e1e1e;
+    background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
+  }
+  .footer-section h2{
+    font-size: 40px;
+    color: #f98116;
+  }
+  .footer-section p{
+    font-size: 22px;
+    padding-top: 30px;
+    color: white;
+  }
+  .footer-icon img {
+    margin: 0 10px;
+  }
+  .footer-icon i{
+    font-size: 30px;
+    margin: 0 10px;
+  
+  }
+  .footer-icon  i:hover {
+    color: #83340f;
+    cursor: pointer;
+  }
+  .footer-icon {
+    animation: upDown 2s infinite;
+  }
+  
+  @keyframes upDown {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  .foter-content{
+    background-color: #161616;
+    color:#f98116;
+    margin-top: 2px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
